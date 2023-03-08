@@ -19,4 +19,4 @@ class Queue(AbstractQueue):
         zero = 0
         if zero <= index < lenQueue:
             return self.queue[index]
-        raise IndexError    
+        raise IndexError
